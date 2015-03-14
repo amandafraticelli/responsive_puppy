@@ -1,0 +1,30 @@
+StatusBar
+
+Description
+makes the statusbar appear. Set the style and background color to suit using the other functions.
+
+I choose the status bar because it would be useful to have in any app. It also gives you the option to hide and show the status bar so that it isn’t always showing.
+
+
+
+
+
+SocialSharing
+
+Description
+Allows sharing of text, images (and other files), or a link via the native sharing widget of your device. 
+
+I think it would be useful to share information if you had like a social type app.
+
+
+
+
+Keyboard
+
+
+Description
+Pops up a keyboard.
+
+
+
+This is always useful, especially when you have a data base, or you just need a quick search.
