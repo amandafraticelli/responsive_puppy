@@ -1,0 +1,155 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body { font-family: 'Roboto', sans-serif;
+background-color: #90b6be;
+
+
+
+
+
+      }
+		
+		.inset {
+				width: 90%;
+				max-width: 1000px;
+				margin: 0px auto;
+				padding: 0px 0px;}
+
+
+		/* tabbed div*/
+		#tabbed {width: 100%;
+				 min-height: 1000px;
+
+
+				 /*background-color: #b9e5ef;*/
+			     /*border: solid 3px #9ac8cc;*/
+				 
+			     
+
+				 /*padding: 10px;*/
+				 /*margin: auto;*/
+
+				 border-radius: 10px 10px 10px 10px;
+
+				text-align: left;
+
+				 }
+
+
+		#tabbed nav {}		 
+
+		#tabbed nav a{display: inline-block;
+
+					/*color of unclicked tabs*/
+					  background-color: #6c8b92;
+					  width: 80px;
+					  height:40px;
+
+					  text-align: center;
+					  line-height: 50px;
+
+					  text-decoration: none;
+					  text-transform: uppercase;
+
+					  color: #000;
+
+					  font-family: Helvetica, Arial, sans-serif;
+
+					  border-radius: 10px 10px 0px 0px;}
+
+
+
+		/*color of the current tab*/
+		#tabbed nav a.theChosenOne {background-color: #b9e5ef;}
+
+
+		/*tabbed content bg color*/
+		#tabbed section {background-color: #b9e5ef;
+						 padding: 40px;
+						 margin-bottom: 10px;
+						 color: #000;
+
+						 border-radius: 10px 10px 10px 10px;}	
+
+
+
+				/*gallery border*/
+		.gallery {
+				  border: solid 3px #5c777d;
+				  background-color: #d6f0f6;
+				  overflow: hidden;
+
+				          /*top.  right.  bottom.  left*/
+				  padding: 40px    37px      -6px    42px;
+
+				  border-radius: 10px 10px 10px 10px;}
+
+
+
+
+
+				  /*gallery indivdual divs*/
+		.gallery div { 
+			          width: 200px;
+					  height: 100px;
+					  border: solid 4px #95a5a8;
+
+				      margin:60px;
+
+				      overflow: hidden;
+
+				      float: left;}
+
+		/* having percentages allows the child to scale with the parent instead of having to change the width and height each time */
+
+		.gallery div img{width: 100%;}
+
+
+
+
+
+
+		/*grayed out area (transparent)*/
+		#dark {display: none;
+			   background-color: rgba(0,0,0,.8);
+
+		       position: fixed;
+		   	   top: 0px;
+		   	   bottom: 0px;
+		   	   right: 0px;
+		   	   left: 0px;
+
+		   	   z-index: 1000;}
+
+
+		 #dark #light {background-color: #fff;
+		               
+		               width: 600px;
+		               height: 240px;
+
+		               position: fixed;
+		               top: 0px;
+		   	           bottom: 0px;
+		   	           right: 0px;
+		   	           left: 0px;
+
+		   	           margin: auto;
+
+		   	           padding: 10px;}
+
+
+		 
+		 #dark #light img {width: 100%;
+		   				   height: auto;}
+
+
+
+
+		 #dark #light .close {position: absolute;
+		   	                  right: 0px;
+		   	                  top: 0px;
+
+		   	              	  background-color: #fff;
+		                      font-size: 12px;
+		                      padding: 5px;}				 		  		
+
