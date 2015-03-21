@@ -1,7 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
 
-body { font-family: 'Roboto', sans-serif;
+body {
 background-color: #90b6be;
+font-family:'Roboto', sans-serif;
+
 
 
 
@@ -70,7 +72,7 @@ background-color: #90b6be;
 
 		/*tabbed content bg color*/
 		#tabbed section {background-color: #b9e5ef;
-						 padding: 40px;
+						 padding: 50px;
 						 margin-bottom: 10px;
 						 color: #000;
 
