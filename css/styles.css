@@ -86,9 +86,10 @@ font-family:'Roboto', sans-serif;
 				  border: solid 3px #5c777d;
 				  background-color: #d6f0f6;
 				  overflow: hidden;
-
+				  width: 100%;
+				  position: center;
 				          /*top.  right.  bottom.  left*/
-				  padding: 40px    37px      -6px    42px;
+				  /*padding: 31px    32px      30px    199px;*/
 
 				  border-radius: 10px 10px 10px 10px;}
 
@@ -98,15 +99,17 @@ font-family:'Roboto', sans-serif;
 
 				  /*gallery indivdual divs*/
 		.gallery div { 
-			          width: 200px;
-					  height: 100px;
+			          /*width: 50%;*/
+					  height:auto;
 					  border: solid 4px #95a5a8;
 
-				      margin:60px;
+				      margin:10px;
+				      
+
 
 				      overflow: hidden;
 
-				      float: left;}
+				      }
 
 		/* having percentages allows the child to scale with the parent instead of having to change the width and height each time */
 
