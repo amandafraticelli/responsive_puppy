@@ -87,7 +87,7 @@ font-family:'Roboto', sans-serif;
 				  background-color: #d6f0f6;
 				  overflow: hidden;
 				  width: 100%;
-				  position: center;
+				  
 				          /*top.  right.  bottom.  left*/
 				  /*padding: 31px    32px      30px    199px;*/
 
@@ -99,11 +99,11 @@ font-family:'Roboto', sans-serif;
 
 				  /*gallery indivdual divs*/
 		.gallery div { 
-			          /*width: 50%;*/
-					  height:auto;
-					  border: solid 4px #95a5a8;
+			          width: 100%;
+					  /*height:auto;*/
+					  /*border: solid 4px #95a5a8;*/
 
-				      margin:10px;
+				      margin:220px;
 				      
 
 
@@ -113,7 +113,9 @@ font-family:'Roboto', sans-serif;
 
 		/* having percentages allows the child to scale with the parent instead of having to change the width and height each time */
 
-		.gallery div img{width: 100%;}
+		.gallery div img{width: 300px;
+						 height: 200px;
+						 }
 
 
 
@@ -135,7 +137,7 @@ font-family:'Roboto', sans-serif;
 
 		 #dark #light {background-color: #fff;
 		               
-		               width: 600px;
+		               width: 500px;
 		               height: 240px;
 
 		               position: fixed;
@@ -151,7 +153,7 @@ font-family:'Roboto', sans-serif;
 
 		 
 		 #dark #light img {width: 100%;
-		   				   height: auto;}
+		   				   /*width: 50%;}*/
 
 
 
