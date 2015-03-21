@@ -1,3 +1,42 @@
+	
+// animations
+
+
+
+
+$(function(){
+
+	$('#tabbed').hide().fadeIn();('click', function() {
+
+	$(this).animate({
+		opacity:1.1,
+		paddingTop:'+=80'},400, function() {
+			// $(this).remove();
+
+
+	});
+	});
+	});
+
+
+
+$(function(){
+
+	$('.dog').hide().slideUp();('click', function() {
+
+	$(this).animate({
+		opacity:1.1,
+		paddingTop:'+=80'},1000, function() {
+			// $(this).remove();
+
+
+	});
+	});
+	});
+
+
+
+
 	/*  
 
 			 function tab_link_click() 

@@ -59,6 +59,11 @@ background-color: #90b6be;
 
 
 
+		#tabbed nav a:hover {
+		background-color: #a0d190;}			  
+
+
+
 		/*color of the current tab*/
 		#tabbed nav a.theChosenOne {background-color: #b9e5ef;}
 
