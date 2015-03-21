@@ -12,14 +12,14 @@ font-family:'Roboto', sans-serif;
       }
 		
 		.inset {
-				width: 90%;
+				width: 100%;
 				max-width: 1000px;
 				margin: 0px auto;
 				padding: 0px 0px;}
 
 
 		/* tabbed div*/
-		#tabbed {width: 85%;
+		#tabbed {width: 100%;
 				 min-height: 1000px;
 
 
@@ -73,7 +73,7 @@ font-family:'Roboto', sans-serif;
 
 		/*tabbed content bg color*/
 		#tabbed section {background-color: #b9e5ef;
-						 padding: 40px;
+						 padding: 70px;
 						 margin-bottom: 10px;
 						 color: #000;
 
